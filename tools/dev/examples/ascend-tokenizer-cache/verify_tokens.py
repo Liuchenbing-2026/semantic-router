@@ -54,7 +54,7 @@ def compare(baseline, cached, model, rounds, timeout):
     prompts = [
         {"prompt": "Repeated history. " * 128, "add_special_tokens": False},
         {
-            "prompt": "Unicode: \u4f60\u597d caf\u00e9 \U0001f680\n<|im_start|> literal marker",
+            "prompt": "Unicode: \u4f60\u597d café \U0001f680\n<|im_start|> literal marker",
             "add_special_tokens": False,
         },
         {
